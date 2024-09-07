@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <link rel="stylesheet" type="text/css" href="style.css">
+        <title>CeruleanAcorn's Shoreline</title>
+    </head>
+
+<body>
+    <nav class="navbar">
+        <ul class="navbar_contents">
+            <li>
+                <a href="https://github.com/CeruleanAcorn/SRPG-Studio-Plugins">
+                    My SRPG Studio Plugins GitHub
+                </a>
+            </li>
+        </ul>
+    </nav>
+
+    <header class="title">
+            <h1 class="title_head">
+                CeruleanAcorn's Shoreline
+            </h1>
+            <h2 class="title_blurb">
+                Washed upon my domain, have you? Welcome!<br> 
+                Along this shoreline you'll find examples of plugins I've worked on for SRPG Studio as seen on my 
+                <a href="https://github.com/CeruleanAcorn/SRPG-Studio-Plugins">
+                    GitHub
+                </a>
+                !
+            </h2>
+    </header>
+
+    <section class="plugins_section">
+        <h2 class="plugin_section_blurb">
+            Click on a plugin name to be taken to its corresponding page on my GitHub!
+        </h2>
+            <table class="plugins_table">
+                <tr>
+                    <th id="name_header">
+                        Plugin Name
+                    </th>
+                    <th id="description_header">
+                        Brief Description
+                    </th>
+                    <th id="examples_header">
+                        Example(s)
+                    </th>
+                </tr>
+                <tbody class="panel">
+                    <tr>
+                        <th>
+                            <a href="https://github.com/CeruleanAcorn/SRPG-Studio-Plugins/blob/main/spread-penalty.js">
+                                Spread Penalty
+                            </a>
+                        </th>
+                        <th>
+                            Affect the hit and damage of the user if they are more than a specified distance
+                            away from their target.
+                        </th>
+                        <th>
+                            <iframe class="demo_video"
+                            src= "video/spread_penalty_demo.mp4"
+                            allowfullscreen>
+                            </iframe>
+                        </th>              
+                    </tr>
+                    <tr>
+                        <th>
+                            <a href="https://github.com/CeruleanAcorn/SRPG-Studio-Plugins/blob/main/just-enough-healing.js">
+                                Just Enough Healing
+                            </a>
+                        </th>
+                        <th>
+                            When using healing magic, grants an extra heal that fully heals the target if after
+                            the initial heal their missing HP is equal to or below a specified amount.
+                        </th>
+                        <th>
+                            <iframe class="demo_video"
+                            src= "video/just_enough_healing_demo.mp4" 
+                            allowfullscreen>
+                            </iframe>
+                        </th>              
+                    </tr>
+                    <tr>
+                        <th>
+                            <a href="https://github.com/CeruleanAcorn/SRPG-Studio-Plugins/blob/main/shatter-strike.js">Shatter Strike
+                            </a>
+                        </th>
+                        <th>
+                            User's damage dealt with a weapon changes depending on the weapon's current durability.
+                        </th>
+                        <th>
+                            <iframe class="demo_video"
+                            src= "video/shatter_strike_demo.mp4"
+                            allowfullscreen>
+                            </iframe>
+                        </th>              
+                    </tr>
+                    <tr>
+                        <th>
+                            <a href="https://github.com/CeruleanAcorn/SRPG-Studio-Plugins/blob/main/superiority-complex.js">Superiority Complex</a></th>
+                        <th>
+                            User's damage, defensive stat, hit, avoid, crit, crit avoid and agility when in combat against another unit can be modified
+                            depending on whether the two units' equipped weapon types and/or targeted defensive stats match or not.
+                        </th>
+                        <th>
+                            <iframe class="demo_video"
+                            src= "video/superiority_complex_demo.mp4"
+                            allowfullscreen>
+                            </iframe>
+                        </th>              
+                    </tr>
+                    <tr>
+                        <th>
+                            <a href="https://github.com/CeruleanAcorn/SRPG-Studio-Plugins/blob/main/weakest-link.js">
+                                Weakest Link
+                            </a>
+                        </th>
+                        <th>
+                            User's damage will automatically be calculated with the lower amount out of their target's 
+                            defense and resistance stat. If both stats are the same, the originally targeted defense stat
+                            is used by default.
+                        </th>
+                        <th>
+                            <iframe class="demo_video"
+                            src= "video/weakest_link_demo.mp4"
+                            allowfullscreen>
+                            </iframe>
+                        </th>     
+                    </tr>
+                    <tr>
+                        <th>
+                            <a href="https://github.com/CeruleanAcorn/SRPG-Studio-Plugins/tree/main/only-retaliate">
+                                Only Retaliate
+                            </a>
+                        </th>
+                        <th>
+                            If applied as a unit skill, the unit cannot initiate an attack via the Attack command at all.<br><br>
+                            If applied as a weapon skill on a specific weapon, the unit will not be able to initiate an attack via the Attack command with that weapon.<br><br>
+                            Designed to work with Fusion Attack commands (i.e "Capture") as well.
+                        </th>
+                        <th>
+                            <iframe class="demo_video"
+                            src= "video/only_retaliate_demo.mp4"
+                            allowfullscreen>
+                            </iframe>
+                        </th>              
+                    </tr>
+                    <tr>
+                        <th>
+                            <a href="https://github.com/CeruleanAcorn/SRPG-Studio-Plugins/blob/main/limit-exp-by-level.js">
+                                Limit EXP By Level
+                            </a>
+                        </th>
+                        <th>
+                            Modifies the EXP gained by a unit who has a higher level and class rank than what is specified for a particular map.
+                        </th>
+                        <th>
+                            <iframe class="demo_video"
+                            src= "video/limit_level_by_exp_demo.mp4"
+                            allowfullscreen>
+                            </iframe>
+                        </th>              
+                    </tr>
+                </tbody> 
+            </table>
+    </section>
+</body>
+
+</html>
