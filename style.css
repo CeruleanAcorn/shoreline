@@ -159,11 +159,11 @@ body {
       font-family: firasanscondensed-bold;
     }
 
-    .plugins_table tr:nth-child(0) {
+    .plugins_table {
       background-color: #e495e4;
     }
 
-    .plugins_table{
+    .plugins_table {
       font-family: firasanscondensed-regular;
     }
 
@@ -174,7 +174,7 @@ body {
       text-decoration: none;
     }
 
-#table_description{
+#table_description {
   text-align: center;
   font-family: firasanscondensed-bold;
 }
