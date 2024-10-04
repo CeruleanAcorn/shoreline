@@ -23,7 +23,7 @@
   src: url('font/FiraSansCondensed-SemiBold.ttf');
 }
 @font-face {
-  font-family: seaweedscript;
+  font-family: originalsurfer-regular;
   src: url('font/OriginalSurfer-Regular.ttf');
 }
 
@@ -69,7 +69,7 @@
 
 .title_head {
   text-decoration: underline;
-  font-family: seaweedscript;
+  font-family: originalsurfer-regular;
 }
 
 .title_blurb {
