@@ -76,6 +76,12 @@
   font-family: firasanscondensed-regular;
 }
 
+.notice_blurb {
+  font-family: firasanscondensed-bold;
+  text-decoration: underline;
+  color: white;
+}
+
 @keyframes titleDown {
   0% {
     color: lightblue;
