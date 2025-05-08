@@ -125,6 +125,11 @@ body {
   a:hover {
     animation: linkflash 1s infinite;
   }
+
+  a:focus{
+    animation: linkflash 1s infinite;  
+  }
+
   #navbar {
     position:fixed;
     top: 0;
